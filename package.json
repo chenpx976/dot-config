@@ -1,5 +1,5 @@
 {
-  "name": "dot-config",
+  "name": "dot-config-next",
   "version": "0.0.1",
   "description": "dot-config",
   "main": "dist/cjs/index.js",
