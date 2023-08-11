@@ -1,0 +1,32 @@
+{
+  "name": "dot-config",
+  "version": "0.0.1",
+  "description": "dot-config",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "keywords": [],
+  "authors": [
+    "chenpx976@gmail.com"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "compiled"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "father": "^4.3.1"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
